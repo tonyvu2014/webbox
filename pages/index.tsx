@@ -24,7 +24,7 @@ const Home: NextPage = (props: any) => {
 
   return (
     <div>
-      <BaseSeo title="Webbox AI - generate websites in under 1 hour"/>
+      <BaseSeo title="Generate websites in under 1 hour"/>
 
       <main>
         <Header />

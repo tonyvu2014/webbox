@@ -9,6 +9,9 @@ const BaseSeo: React.FunctionComponent<SeoType> = (props) => {
   return (
     <React.Fragment>
       <Head>
+        <title>
+          {["Webbox AI", props.title].flat().filter(Boolean).join(" - ")}
+        </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="Create stunning websites in under an hour with Webbox AI, the AI-powered no-code website generator. Perfect for businesses and creatives, Webbox makes professional website creation easy and fast. Sign up now to get your first website free and enjoy a 50% discount on subsequent sites. Revolutionize your online presence with Webbox AI." />
         <meta name="author" content="Tony Vu" />
@@ -30,9 +33,6 @@ const BaseSeo: React.FunctionComponent<SeoType> = (props) => {
           property="og:image"
           content="https://avatars.githubusercontent.com/u/7567119?v=4"
         />
-        <title>
-          {["Webbox", props.title].flat().filter(Boolean).join(" - ")}
-        </title>
       </Head>
     </React.Fragment>
   );

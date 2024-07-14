@@ -68,7 +68,6 @@ const Pricing: NextPage = (props: any) => {
                                 </Text>
                                 <Button type="button"
                                         variant="solid"
-                                        color="white"
                                         colorScheme="blue"
                                         onClick={() => goToContact()}>
                                     Register Interest
@@ -117,7 +116,6 @@ const Pricing: NextPage = (props: any) => {
                                 <Text fontSize={'sm'} mb='2'>Register Interest now to get 50% discount</Text>
                                 <Button type="button"
                                         variant="solid"
-                                        color="white"
                                         colorScheme="blue"
                                         onClick={() => goToContact()}>
                                     Register Interest
@@ -166,7 +164,6 @@ const Pricing: NextPage = (props: any) => {
                                 <Text fontSize={'sm'} mb='2'>Register Interest now to get 50% discount</Text>
                                 <Button type="button"
                                         variant="solid"
-                                        color="white"
                                         colorScheme="blue"
                                         onClick={() => goToContact()}>
                                     Register Interest

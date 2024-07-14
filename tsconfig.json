@@ -15,6 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     "baseUrl": ".",
+    "noImplicitAny": false,
     "paths": {
       "@/common/*": ["common/*"],
       "@/context/*": ["context/*"],
@@ -33,6 +34,6 @@
     "**/*.ts",
     "**/*.tsx",
     "common/components/Sidebar/__sidebarDetails.js"
-  ],
+, "pages/contact.tsx"  ],
   "exclude": ["node_modules"]
 }

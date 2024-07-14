@@ -5,8 +5,6 @@ import NextLink from "next/link";
 // Chakra UI Imports
 import {
   Box,
-  Button,
-  ButtonGroup,
   Divider,
   Flex,
   HStack,
@@ -72,13 +70,13 @@ const Footer: React.FunctionComponent = () => {
                       fontWeight="extrabold"
                       colorScheme="white"
                     >
-                      Spendify
+                      Webbox
                     </Text>
                   </Flex>
                 </NextLink>
               </Stack>
               <Text my="1" fontWeight="500">
-                Just wow your expenses with amazing invoices.
+                Use AI to generate your website in under an hour
               </Text>
             </Box>
             <Box>
@@ -100,12 +98,15 @@ const Footer: React.FunctionComponent = () => {
                 <Heading fontSize="xl" mb="1">
                   Support
                 </Heading>
-                <Link href="/help">
-                  <Text fontSize="sm">Help Center</Text>
+                <Link href="/contact">
+                  <Text fontSize="sm">Contact Us</Text>
+                </Link>
+                <Link href="/terms">
+                  <Text fontSize="sm">Terms of Service</Text>
                 </Link>
               </VStack>
             </Box>
-            <Box>
+            {/* <Box>
               <VStack mt="2.5" alignItems="start">
                 <Heading fontSize="xl" mb="1">
                   Community
@@ -139,7 +140,7 @@ const Footer: React.FunctionComponent = () => {
                   </Button>
                 </ButtonGroup>
               </VStack>
-            </Box>
+            </Box> */}
           </Flex>
         </BaseBox>
 
@@ -147,10 +148,10 @@ const Footer: React.FunctionComponent = () => {
         <Box py="4">
           <HStack alignItems="center" justify="center">
             <Text>&copy; {new Date().getFullYear()}</Text>
-            <Link href="https://github.com/ayushsoni1010/spendify">
-              <Text fontWeight="600">Spendify |</Text>
+            <Link href="https://www.webboxai.com">
+              <Text fontWeight="600">Webbox |</Text>
             </Link>
-            <Text>Open Source Software💜</Text>
+            <Text>AI no-code website generator💜</Text>
           </HStack>
         </Box>
       </Box>

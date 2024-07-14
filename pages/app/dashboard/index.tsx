@@ -69,7 +69,7 @@ const Dashboard: NextPage = () => {
                   xs: "xl",
                 }}
               >
-                Welcome to Spendify
+                Welcome to Webbox
               </Heading>
               <Text
                 mt="2"

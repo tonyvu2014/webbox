@@ -35,9 +35,9 @@ export async function getStaticProps() {
         href: "https://github.com/ayushsoni1010/spendify",
       },
       heroSection: {
-        heading: "Get your spending money under control and manage",
+        heading: "Create stunning websites in under an hour with Webbox AI",
         description:
-          "Spendify is the most intuitive, affordable, and smart way to automate your freelancer business and focus on what really matters.",
+          "Welcome to Webbox, the ultimate AI-powered no-code website generator. Whether you're a startup founder, business owner, creative professional, or hobbyist, Webbox empowers you to design and launch a professional, seo-friendly website in less than 60 minutes. With intuitive tools and intelligent design assistance, you can seamlessly transform your vision into a fully functional online presence without any coding skills. Experience the future of website creation with Webbox – fast, easy, and beautiful.",
         buttonText: "Get started",
       },
     },

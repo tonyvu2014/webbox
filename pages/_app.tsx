@@ -23,9 +23,12 @@ export default function App({ Component, pageProps }: AppProps) {
     "/signup",
     "/brand-assets",
     "/features",
+    "/pricing",
     "/opensource",
-    "/sponsor",
-    "/about",
+    "/cases",
+    "/faq",
+    "/terms",
+    "/contact",
     "/help",
   ];
 

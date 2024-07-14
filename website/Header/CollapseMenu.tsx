@@ -108,7 +108,7 @@ const CollapseMenu: React.FunctionComponent<SidebarProps> = ({
             {!user ? (
               <>
                 <ButtonGroup>
-                  <Button
+                  {/* <Button
                     as={Link}
                     href="/login"
                     passHref
@@ -125,11 +125,11 @@ const CollapseMenu: React.FunctionComponent<SidebarProps> = ({
                     _focus={{ boxShadow: "outline" }}
                   >
                     Log in
-                  </Button>
+                  </Button> */}
                   <Button
                     colorScheme="blue"
                     as={Link}
-                    href="/signup"
+                    href="/contact"
                     passHref
                     variant="solid"
                     size={{

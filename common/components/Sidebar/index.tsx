@@ -91,7 +91,7 @@ const Sidebar = () => {
                 fontWeight="extrabold"
                 colorScheme="white"
               >
-                Spendify
+                webbox
               </Text>
             </Flex>
           </Link>

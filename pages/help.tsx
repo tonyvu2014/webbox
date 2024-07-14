@@ -1,58 +1,83 @@
 // Basic Imports
-import React from "react";
 import { NextPage } from "next";
-import NextLink from "next/link";
 
-// Chakra UI Imports
 import {
-  Box,
-  Button,
-  Container,
-  Divider,
-  Flex,
-  Heading,
-  IconButton,
-  Text,
-} from "@chakra-ui/react";
+    Box,
+    Container,
+    Heading,
+    Image,
+    ListItem,
+    OrderedList,
+    Text
+  } from "@chakra-ui/react";
 
 // Components Imports
-import BaseBox from "@/modules/components/BaseBox";
+import Header from "@/website/Header";
+import Footer from "@/website/Footer/Footer";
 import BaseSeo from "@/modules/components/BaseSeo";
+import BaseBox from "@/modules/components/BaseBox";
 
-// Icon Imports
-import { MdConstruction } from "react-icons/md";
-
-const Help: NextPage = () => {
+const Help: NextPage = (props: any) => {
   return (
-    <React.Fragment>
-      <BaseSeo title="Help Center" />
-      <BaseBox>
-        <Container m="auto" mt="20">
-          <Flex gap="4" my="4">
-            <IconButton
-              size="lg"
-              icon={<MdConstruction />}
-              aria-label="Construction"
-            />
-            <Heading as="h1">Construction</Heading>
-          </Flex>
-          <Text>The page you&apos;re looking for is in progress</Text>
-          <Divider my="6" />
-          <Box my="6">
-            <NextLink href="/" passHref>
-              <Button
-                type="button"
-                variant="solid"
-                colorScheme="blue"
-                bgGradient="linear(to-r, blue.400, purple.500)"
-              >
-                Return to home
-              </Button>
-            </NextLink>
-          </Box>
-        </Container>
-      </BaseBox>
-    </React.Fragment>
+    <div>
+      <BaseSeo title="How it works" />
+      <main>
+        <Header />
+        <BaseBox>
+            <Container  maxW="container.md" m="auto" mt="4" centerContent>
+                <Heading as="h1" mb="8">How Webbox AI works</Heading>
+                <Box mb="4">
+                    Webbox AI generate websites based on your text instructions and design preferences. Follow these simple steps.
+                </Box>
+                <OrderedList>
+                    <ListItem mb="4">
+                      <Text fontWeight="bold">Provide basic information about your website
+                      </Text>
+                    <Box mt="2">
+                      <Image src="/assets/step-info.png" alt="info">
+                      </Image>
+                    </Box>
+                    </ListItem>
+                    <ListItem mb="4"><Text fontWeight="bold">Pick the pages that you want to generate</Text>
+                    <Box mt="2">
+                      <Image src="/assets/step-pages.png" alt="pages">
+                      </Image>
+                    </Box>
+                    </ListItem>
+                    <ListItem mb="4"><Text fontWeight="bold">Select your design preferences</Text>
+                    <Box mt="2">
+                      <Image src="/assets/step-design.png" alt="pages">
+                      </Image>
+                    </Box>
+                    </ListItem>
+                    <ListItem mb="4"><Text fontWeight="bold">View and change the website as you wish</Text>
+                    <Box mt="2">
+                      Webbox AI will automatically generate a modern and SEO-friendly website for you, including layout, design and all contents. You can easily customize various elements to suit your preferences, such as: <br/>
+                      - The logo. <br/>
+                      - The images or illustrations. <br/>
+                      - Text copies on the website using text prompts. <br/>
+                      - Page layout. <br/>
+                      - Text font or color scheme. <br/>
+                    </Box>
+                    </ListItem> 
+                    <ListItem mb="4"><Text fontWeight="bold">Connect to your domain</Text>
+                    <Box mt="2">
+                      Once you acquire your dream domain from a provider, follow few simple steps to link the domain to your newly created website.
+                    </Box>
+                    </ListItem>
+                    <ListItem mb="4"><Text fontWeight="bold">Publish</Text>
+                    <Box mt="2">
+                      Congratulations! Your website is ready. Simply click the "Publish" button to showcase it to your potential customers.                    </Box>
+                    </ListItem>      
+                </OrderedList>           
+            </Container>
+        </BaseBox>
+      </main>
+
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   );
 };
 

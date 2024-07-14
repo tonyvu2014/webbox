@@ -92,7 +92,7 @@ const Header: React.FunctionComponent = () => {
                   }}
                   fontWeight="extrabold"
                 >
-                  Spendify
+                  Webbox
                 </Text>
               </Flex>
             </Link>
@@ -131,7 +131,7 @@ const Header: React.FunctionComponent = () => {
               {!user ? (
                 <>
                   <ButtonGroup>
-                    <Button
+                    {/* <Button
                       as={Link}
                       href="/login"
                       passHref
@@ -142,11 +142,11 @@ const Header: React.FunctionComponent = () => {
                       _focus={{ boxShadow: "outline" }}
                     >
                       Log in
-                    </Button>
+                    </Button> */}
                     <Button
                       colorScheme="blue"
                       as={Link}
-                      href="/signup"
+                      href="/contact"
                       passHref
                       variant="solid"
                       size="md"

@@ -1,22 +1,22 @@
 export const linkDetails: Array<{ name: string; link: string }> = [
   {
-    name: "Features",
+    name: "How It Works",
+    link: "/help",
+  },
+  {
+    name: "Comparison",
     link: "/features",
   },
   {
-    name: "Brand Assets",
-    link: "/brand-assets",
+    name: "Use Cases",
+    link: "/cases",
   },
   {
-    name: "Open Source",
-    link: "/opensource",
+    name: "Pricing",
+    link: "/pricing",
   },
   {
-    name: "Sponsor",
-    link: "/sponsor",
-  },
-  {
-    name: "About Us",
-    link: "/about",
-  },
+    name: "Sign Up",
+    link: "/contact",
+  }
 ];

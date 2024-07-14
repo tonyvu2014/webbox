@@ -7,6 +7,7 @@ import {
   Button,
   Grid,
   GridItem,
+  Link,
   Text,
   VStack,
   useColorModeValue,
@@ -29,7 +30,9 @@ const Hero: React.FunctionComponent = (props: any) => {
           opacity="0.3"
           _dark={{ opacity: "0.7" }}
         />
-        <StargazerBanner {...props} />
+        <br/>
+        <br/>
+        {/* <StargazerBanner {...props} /> */}
         <BaseMotionFallInPlace initialInView translateY="30px">
           <Grid
             display={{
@@ -113,14 +116,16 @@ const Hero: React.FunctionComponent = (props: any) => {
                   _active={{ boxShadow: "outline" }}
                   _hover={{ boxShadow: "xl" }}
                   colorScheme="blue"
+                  as={Link}
+                  href="/contact"
                 >
                   {props?.heroSection?.buttonText}
                 </Button>
               </VStack>
             </Box>
-            <GridItem>
+            <Box>
               <MainHeroImage />
-            </GridItem>
+            </Box>
           </Grid>
         </BaseMotionFallInPlace>
       </BaseBox>

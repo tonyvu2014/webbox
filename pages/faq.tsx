@@ -135,7 +135,7 @@ const Faq: NextPage = (props: any) => {
                         </Box>
                         <Box my="2">
                             <Text>
-                            Using Webbox AI should be straightforward. However, when you need help, feel free to reach out to us at support@webboxai.com.
+                            Using Webbox AI should be straightforward. However, when you need help, feel free to reach out to us at info@webboxai.com.
                             </Text>  
                         </Box>
                     </ListItem>

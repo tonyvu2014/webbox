@@ -78,7 +78,7 @@ const Terms: NextPage = (props: any) => {
                     </ListItem>  
                     <ListItem mb="4"><Text fontWeight="bold">Contact Us</Text>
                     <Box mt="2">
-                        If you have any questions or concerns about these terms and conditions, please contact us at support@webboxai.com.                    
+                        If you have any questions or concerns about these terms and conditions, please contact us at info@webboxai.com.                    
                     </Box>
                     </ListItem>                    
                 </OrderedList>           

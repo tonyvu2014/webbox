@@ -67,7 +67,7 @@ const Help: NextPage = (props: any) => {
                     </ListItem>
                     <ListItem mb="4"><Text fontWeight="bold">Publish</Text>
                     <Box mt="2">
-                      Congratulations! Your website is ready. Simply click the "Publish" button to showcase it to your potential customers.                    </Box>
+                      Congratulations! Your website is ready. Simply click the &quot;Publish&quot; button to showcase it to your potential customers.                    </Box>
                     </ListItem>      
                 </OrderedList>           
             </Container>

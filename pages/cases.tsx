@@ -31,8 +31,8 @@ const Cases: NextPage = (props: any) => {
                         <Text fontWeight="bold">Company websites for small business owners:</Text>
                         <Box mt="2">
                         John Davis, a small business owner, dreamed of opening her own bakery but lacked the technical skills to create a professional website. 
-                        She discovered Webbox AI which allowed her to build a stunning website for her bakery, "Sweet Delights" in under an hour. The platform's user-friendly interface and customizable templates made the process easy and stress-free. 
-                        Sarah's new website quickly attracted customers, enhancing her business's online presence and success. Webbox AI enabled her to focus on her passion for baking while effortlessly managing her website.
+                        She discovered Webbox AI which allowed her to build a stunning website for her bakery, &ldquo;Sweet Delights&rdquo; in under an hour. The platform&apos;s user-friendly interface and customizable templates made the process easy and stress-free. 
+                        Sarah&apos;s new website quickly attracted customers, enhancing her business&apos;s online presence and success. Webbox AI enabled her to focus on her passion for baking while effortlessly managing her website.
                         </Box>
                     </ListItem>
                     <ListItem mb="4">
@@ -49,7 +49,7 @@ const Cases: NextPage = (props: any) => {
                         <Box mt="2">
                         Sarah Thompson, a marketing manager at a boutique coffee company, needed a landing page for a new line of premium coffee blends. 
                         Using Webbox AI, he quickly created a professional, engaging landing page. 
-                        The platform’s ease of use and efficient tools helped John drive traffic, generate leads, and boost sales, allowing him to focus on his marketing campaign rather than technical details. 
+                        The platform&apos;s ease of use and efficient tools helped John drive traffic, generate leads, and boost sales, allowing him to focus on his marketing campaign rather than technical details. 
                         Webbox AI proved to be a powerful solution for creating effective landing pages swiftly and effortlessly.      
                         </Box>
                     </ListItem>
@@ -58,7 +58,7 @@ const Cases: NextPage = (props: any) => {
                         <Box mt="2">
                         Mike Parker, working for an environmental non-profit, needed an effective landing page for a river clean-up charity event. 
                         He turned to Webbox AI and, within a short period of time, created a professional page with event specifics, images, and a volunteer registration form. 
-                        The platform's simplicity enabled Mike to concentrate on mobilizing the community, leading to higher engagement and contributions. 
+                        The platform&apos;s simplicity enabled Mike to concentrate on mobilizing the community, leading to higher engagement and contributions. 
                         Webbox AI allowed Mike to swiftly and effortlessly craft a successful event page, demonstrating its usefulness for non-profits and community initiatives.    
                         </Box>
                     </ListItem>

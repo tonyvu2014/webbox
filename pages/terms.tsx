@@ -27,16 +27,16 @@ const Terms: NextPage = (props: any) => {
                 <Heading as="h1" mb="8">Terms of Service</Heading>
                 <Box mb="2">
                     Welcome to Webbox AI, the AI-powered no-code website generator! These terms of service outline the rules and regulations for the use of our website and services.<br/>
-                    By accessing this website and using our services, we assume you accept these terms of service in full. Do not continue to use Webbox AI's website or services if you do not accept all of the terms and conditions stated on this page.<br/>
+                    By accessing this website and using our services, we assume you accept these terms of service in full. Do not continue to use Webbox AI&apos;s website or services if you do not accept all of the terms and conditions stated on this page.<br/>
                     The following terminology applies to these Terms of Service, Privacy Statement and Disclaimer Notice and any or all Agreements:<br/>
-                    - "Client", "You" and "Your" refers to you, the person accessing this website and accepting Webbox AI’s terms and conditions. <br/>
-                    - "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company, Webbox AI. <br/>
-                    - "Party", "Parties", or "Us", refers to both the Client and ourselves, or either the Client or ourselves. <br/>
+                    - &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to you, the person accessing this website and accepting Webbox AI&apos;s terms and conditions. <br/>
+                    - &quot;The Company&quot;, &quot;Ourselves&quot;, &quot;We&quot;, &quot;Our&quot; and &quot;Us&quot;, refers to our Company, Webbox AI. <br/>
+                    - &quot;Party&quot;, &quot;Parties&quot;, or &quot;Us&quot;, refers to both the Client and ourselves, or either the Client or ourselves. <br/>
                 </Box>
                 <OrderedList>
                     <ListItem mb="4"><Text fontWeight="bold">Cookies</Text>
                     <Box mt="2">
-                        We employ the use of cookies. By using Webbox AI's website you consent to the use of cookies in accordance with Webbox AI’s privacy policy.
+                        We employ the use of cookies. By using Webbox AI&apos;s website you consent to the use of cookies in accordance with Webbox AI&apos;s privacy policy.
                     </Box>
                     </ListItem>
                     <ListItem mb="4"><Text fontWeight="bold">License</Text>

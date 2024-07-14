@@ -102,7 +102,7 @@ const Pricing: NextPage = (props: any) => {
                                 Web traffic analytics
                             </Box>
                             <Box mb='2'>
-                                Form Submission Data Dashboard
+                                Form data submission dashboard
                             </Box>
                         </CardBody>
                         <Divider/>
@@ -148,7 +148,7 @@ const Pricing: NextPage = (props: any) => {
                                 Web traffic analytics
                             </Box>
                             <Box mb='2'>
-                                Form Submission Data Dashboard
+                                Form data submission dashboard
                             </Box>
                         </CardBody>
                         <Divider/>

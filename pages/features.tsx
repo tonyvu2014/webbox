@@ -13,7 +13,8 @@ import {
     Tbody,
     Td,
     Tfoot,
-    Center
+    Center,
+    Text
   } from "@chakra-ui/react";
 
 // Components Imports
@@ -50,32 +51,32 @@ const Features: NextPage = (props: any) => {
                     </Thead>
                     <Tbody>
                       <Tr>
-                        <Td className='td-label-style'>Methodology</Td>
+                        <Td className='td-label-style'><Text as='b'>Methodology</Text></Td>
                         <Td className='td-value-style'>Generate website with pre-defined templates and text prompts using AI</Td>
                         <Td className='td-value-style'>Build website with pre-defined templates and drag-and-drop interface</Td>
                       </Tr>
                       <Tr>
-                        <Td className='td-label-style'>Learning Curve</Td>
+                        <Td className='td-label-style'><Text as='b'>Learning Curve</Text></Td>
                         <Td className='td-value-style'>Easy</Td>
                         <Td className='td-value-style'>Hard</Td>
                       </Tr>
                       <Tr>
-                        <Td className='td-label-style'>Time to build</Td>
+                        <Td className='td-label-style'><Text as='b'>Time to build</Text></Td>
                         <Td className='td-value-style'>Hours to days</Td>
                         <Td className='td-value-style'>Days to weeks</Td>
                       </Tr>
                       <Tr>
-                        <Td className='td-label-style'>Cost per month</Td>
+                        <Td className='td-label-style'><Text as='b'>Cost per month</Text></Td>
                         <Td className='td-value-style'>Less than $10</Td>
                         <Td className='td-value-style'>$30 or more</Td>
                       </Tr>
                       <Tr>
-                        <Td className='td-label-style'>Customization</Td>
+                        <Td className='td-label-style'><Text as='b'>Customization</Text></Td>
                         <Td className='td-value-style'>Possible but limited</Td>
                         <Td className='td-value-style'>More flexible</Td>
                       </Tr>
                       <Tr>
-                        <Td className='td-label-style'>Use cases</Td>
+                        <Td className='td-label-style'><Text as='b'>Use cases</Text></Td>
                         <Td className='td-value-style'>Ideal for individuals and small businesses who need a quick, cost-effective and straightforward way to create a professional-looking website without any technical skills.</Td>
                         <Td className='td-value-style'>Suitable for users who need to create more complex, dynamic websites and web applications, including developers, and businesses with specific needs.</Td>
                       </Tr>

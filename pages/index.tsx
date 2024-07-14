@@ -31,14 +31,14 @@ const Home: NextPage = (props: any) => {
         <Hero {...props} />
         <BaseBox position="relative">
           <SimpleGrid spacing={4} columns={{sm:1, md: 3}}>
-            <Card variant={'elevated'} size='md' align="center" colorScheme="blue">
+            <Card variant={'elevated'} size='md' align="center">
               <CardHeader>
                 <Heading as="h2" fontSize={{
-                  base: "3xl",
-                  lg: "3xl",
-                  md: "2xl",
-                  sm: "xl",
-                  xs: "lg",
+                  base: "2xl",
+                  lg: "2xl",
+                  md: "xl",
+                  sm: "lg",
+                  xs: "md",
                 }}
                 fontWeight="600">
                   Ease of Use
@@ -54,11 +54,11 @@ const Home: NextPage = (props: any) => {
             <Card variant={'elevated'} size='md' align="center">
               <CardHeader>
                 <Heading as="h2" fontSize={{
-                  base: "3xl",
-                  lg: "3xl",
-                  md: "2xl",
-                  sm: "xl",
-                  xs: "lg",
+                    base: "2xl",
+                    lg: "2xl",
+                    md: "xl",
+                    sm: "lg",
+                    xs: "md",
                 }}
                 fontWeight="600">
                   Speed and Efficiency
@@ -75,11 +75,11 @@ const Home: NextPage = (props: any) => {
               <CardHeader>
                 <Heading as="h2" 
                   fontSize={{
-                    base: "3xl",
-                    lg: "3xl",
-                    md: "2xl",
-                    sm: "xl",
-                    xs: "lg",
+                    base: "2xl",
+                    lg: "2xl",
+                    md: "xl",
+                    sm: "lg",
+                    xs: "md",
                   }}
                   fontWeight="600">
                   Cost-Effective Solution

@@ -54,12 +54,15 @@ const Pricing: NextPage = (props: any) => {
                                 Pick from 3 site templates
                             </Box>
                             <Box mb='2'>
-                                Unlimited customization
+                                Unlimited customization of design elements
+                            </Box>
+                            <Box mb='2'>
+                                10 attempts to rewrite contents using AI
                             </Box>
                         </CardBody>
                         <Divider/>
                         <CardFooter>
-                            <Box w='100%' p={2}>
+                            <Box w='100%' p={2} textAlign={'center'}>
                                 <Text fontSize={'sm'} mb='2'>
                                     Explore the power of AI website generator
                                 </Text>
@@ -87,7 +90,10 @@ const Pricing: NextPage = (props: any) => {
                                 Pick from all site templates
                             </Box>
                             <Box mb='2'>
-                                Unlimited customization
+                                Unlimited customization of design elements
+                            </Box>
+                            <Box mb='2'>
+                                Unlimited attempts to rewrite contents using AI
                             </Box>
                             <Box mb='2'>
                                 Site hosting with SSL
@@ -107,7 +113,7 @@ const Pricing: NextPage = (props: any) => {
                         </CardBody>
                         <Divider/>
                         <CardFooter>
-                            <Box w='100%' p={2}>
+                            <Box w='100%' p={2} textAlign={'center'}>
                                 <Text fontSize={'sm'} mb='2'>Register Interest now to get 50% discount</Text>
                                 <Button type="button"
                                         variant="solid"
@@ -133,7 +139,10 @@ const Pricing: NextPage = (props: any) => {
                                 Pick from all site templates
                             </Box>
                             <Box mb='2'>
-                                Unlimited customization
+                                Unlimited customization of design elements
+                            </Box>
+                            <Box mb='2'>
+                                Unlimited attempts to rewrite contents using AI
                             </Box>
                             <Box mb='2'>
                                 Site hosting with SSL
@@ -153,7 +162,7 @@ const Pricing: NextPage = (props: any) => {
                         </CardBody>
                         <Divider/>
                         <CardFooter>
-                            <Box w='100%' p={2}>
+                            <Box w='100%' p={2} textAlign={'center'}>
                                 <Text fontSize={'sm'} mb='2'>Register Interest now to get 50% discount</Text>
                                 <Button type="button"
                                         variant="solid"

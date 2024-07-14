@@ -13,6 +13,9 @@ import { theme } from "@/common/utils/theme";
 // Styles Import
 import "@/styles/index.css";
 
+// Analytics
+import { Analytics } from "@vercel/analytics/react"
+
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const noAuthRequired = [
@@ -46,6 +49,7 @@ export default function App({ Component, pageProps }: AppProps) {
             </ProtectedRoutes>
           </>
         )}
+        <Analytics />
       </ChakraProvider>
     </AuthContextProvider>
   );

@@ -12,9 +12,9 @@ import {
     Tr,
     Tbody,
     Td,
-    Tfoot,
     Center,
-    Text
+    Text,
+    Button
   } from "@chakra-ui/react";
 
 // Components Imports
@@ -22,8 +22,15 @@ import Header from "@/website/Header";
 import Footer from "@/website/Footer/Footer";
 import BaseSeo from "@/modules/components/BaseSeo";
 import BaseBox from "@/modules/components/BaseBox";
+import { useRouter } from "next/router";
 
 const Features: NextPage = (props: any) => {
+  const { push } = useRouter();
+
+  const goToContact = () => {
+    push('/contact')
+  }
+
   return (
     <div>
       <BaseSeo title="Comparison" />
@@ -31,13 +38,15 @@ const Features: NextPage = (props: any) => {
         <Header />
         <BaseBox>
             <Container  maxW="container.md" m="auto" mt="4" centerContent>
-                <Heading as="h1" mb="8">How are Webbox AI different from Bubble.io</Heading>
+                <Heading as="h1" mb="8">How are Webbox AI different from Bubble.io and Webflow</Heading>
                 <Box mb="4">
-                Webbox AI is best for users who need a quick, easy, and professional-looking website without the need for technical skills or complex functionality. It excels in simplicity and speed. <br/><br/>
+                <strong>Webbox AI</strong> is best for users who need a quick, easy, and professional-looking website without the need for technical skills or complex functionality. It excels in simplicity and speed. <br/><br/>
 
-                Bubble is suited for users who need to create complex web applications with dynamic content, custom workflows, and advanced features. It offers powerful no-code development capabilities and extensive customization, but with a steeper learning curve and longer development time. <br/><br/>
+                <strong>Bubble</strong> is suited for users who need to create complex web applications with dynamic content, custom workflows, and advanced features. It offers powerful no-code development capabilities and extensive customization, but with a steeper learning curve and longer development time. <br/><br/>
 
-                Choosing between Webbox AI and Bubble depends on your specific needs, technical skills, and the complexity of the website or application you want to build.                
+                <strong>Webflow</strong> is designed for users who need a high level of control over their website&apos;s design and functionality. It&apos;s best suited for designers, developers, and businesses that require custom, professional-grade websites. Webflow offers extensive customization options, advanced design tools, and built-in features for responsive design, CMS, and e-commerce. It has a steeper learning curve and longer development time compared to Webbox AI.<br/><br/>
+
+                Choosing between Webbox AI, Webflow and Bubble depends on your specific needs, technical skills, and the complexity of the website or application you want to build.                
                 </Box> 
                 <Box>
                   <Table className="table-style" size="md" variant='striped' colorScheme='blue'>
@@ -58,7 +67,7 @@ const Features: NextPage = (props: any) => {
                       <Tr>
                         <Td className='td-label-style'><Text as='b'>Learning Curve</Text></Td>
                         <Td className='td-value-style'>Easy</Td>
-                        <Td className='td-value-style'>Hard</Td>
+                        <Td className='td-value-style'>Medium to hard</Td>
                       </Tr>
                       <Tr>
                         <Td className='td-label-style'><Text as='b'>Time to build</Text></Td>
@@ -72,12 +81,12 @@ const Features: NextPage = (props: any) => {
                       </Tr>
                       <Tr>
                         <Td className='td-label-style'><Text as='b'>Customization</Text></Td>
-                        <Td className='td-value-style'>Possible but limited</Td>
+                        <Td className='td-value-style'>Customizable to a limited extend</Td>
                         <Td className='td-value-style'>More flexible</Td>
                       </Tr>
                       <Tr>
                         <Td className='td-label-style'><Text as='b'>Use cases</Text></Td>
-                        <Td className='td-value-style'>Ideal for individuals and small businesses who need a quick, cost-effective and straightforward way to create a professional-looking website without any technical skills.</Td>
+                        <Td className='td-value-style'>Ideal for individuals and small businesses who need a quick, straightforward and cost-effective way to create a professional-looking website without any technical skills.</Td>
                         <Td className='td-value-style'>Suitable for users who need to create more complex, dynamic websites and web applications, including developers, and businesses with specific needs.</Td>
                       </Tr>
                     </Tbody>
@@ -85,6 +94,16 @@ const Features: NextPage = (props: any) => {
                 </Box>       
             </Container>
         </BaseBox>
+        <Box mt="8">
+        <Center>
+          <Button variant="solid" 
+                  colorScheme="teal"
+                  onClick={() => goToContact()}
+                  p="6">
+                    I&apos;m Interested
+          </Button>
+        </Center>
+        </Box>
       </main>
 
       <footer>

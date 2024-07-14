@@ -1,20 +1,109 @@
 // Basic Imports
 import { NextPage } from "next";
+import { useRouter } from "next/router";
 
 // Components Imports
 import Header from "@/website/Header";
 import Hero from "@/website/Hero";
 import Footer from "@/website/Footer/Footer";
 import BaseSeo from "@/modules/components/BaseSeo";
+import { Box, Button, Card, CardBody, CardFooter, CardHeader, Center, Heading, Link, SimpleGrid } from "@chakra-ui/react";
+import BaseBox from "@/modules/components/BaseBox";
+
+//Icons
+import { CiLight } from "react-icons/ci";
+import { IoIosFlash } from "react-icons/io";
+import { FaPiggyBank } from "react-icons/fa";
 
 const Home: NextPage = (props: any) => {
+  const { push } = useRouter();
+
+  const goToContact = () => {
+    push('/contact')
+  };
+
   return (
     <div>
-      <BaseSeo />
+      <BaseSeo title="Webbox AI - generate websites in under 1 hour"/>
 
       <main>
         <Header />
         <Hero {...props} />
+        <BaseBox position="relative">
+          <SimpleGrid spacing={4} columns={{sm:1, md: 3}}>
+            <Card variant={'elevated'} size='md' align="center" colorScheme="blue">
+              <CardHeader>
+                <Heading as="h2" fontSize={{
+                  base: "3xl",
+                  lg: "3xl",
+                  md: "2xl",
+                  sm: "xl",
+                  xs: "lg",
+                }}
+                fontWeight="600">
+                  Ease of Use
+                </Heading>
+              </CardHeader>
+              <CardBody>
+                Webbox AI is designed for non-technical users, making it incredibly easy to create a professional-looking website. With intuitive text instructions and pre-defined templates, users can generate a fully functional website without any coding knowledge or technical skills. The streamlined process ensures that even beginners can build a website with minimal effort.
+              </CardBody>
+              <CardFooter>
+                <CiLight size={64} color='blue.500' />
+              </CardFooter>
+            </Card> 
+            <Card variant={'elevated'} size='md' align="center">
+              <CardHeader>
+                <Heading as="h2" fontSize={{
+                  base: "3xl",
+                  lg: "3xl",
+                  md: "2xl",
+                  sm: "xl",
+                  xs: "lg",
+                }}
+                fontWeight="600">
+                  Speed and Efficiency
+                </Heading>
+              </CardHeader>
+              <CardBody>
+                Webbox AI excels in quickly setting up and deploying websites. By leveraging AI to automate the design and layout process, users can have their website up and running in a fraction of the time it would take with traditional website builders. This makes it an ideal choice for individuals and small businesses that need a fast and effective web presence.
+              </CardBody>
+              <CardFooter>
+                <IoIosFlash size={64} color='blue.500' />
+              </CardFooter>
+            </Card> 
+            <Card variant={'elevated'} size='md' align="center">
+              <CardHeader>
+                <Heading as="h2" 
+                  fontSize={{
+                    base: "3xl",
+                    lg: "3xl",
+                    md: "2xl",
+                    sm: "xl",
+                    xs: "lg",
+                  }}
+                  fontWeight="600">
+                  Cost-Effective Solution
+                </Heading>
+              </CardHeader>
+              <CardBody>
+                With its focus on simplicity and pre-defined templates, Webbox AI provides a cost-effective way to create a professional website. Users can avoid the expenses associated with hiring web developers or designers, making it a budget-friendly option for startups, freelancers, and small businesses looking to establish an online presence without significant financial investment.
+              </CardBody>
+              <CardFooter>
+                <FaPiggyBank size={64} color='blue.500' />
+              </CardFooter>
+            </Card>
+          </SimpleGrid>
+        </BaseBox>
+        <Box mt="8">
+        <Center>
+          <Button variant="solid" 
+                  colorScheme="teal"
+                  p="6"
+                  onClick={() => goToContact()}>
+            Sign Me Up
+          </Button>
+        </Center>
+        </Box>
       </main>
 
       <footer>

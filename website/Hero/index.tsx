@@ -7,6 +7,7 @@ import {
   Button,
   Grid,
   GridItem,
+  Heading,
   Link,
   Text,
   VStack,
@@ -49,7 +50,8 @@ const Hero: React.FunctionComponent = (props: any) => {
             columnGap="10"
           >
             <Box>
-              <Text
+              <Heading
+                as="h1"
                 bgColor={useColorModeValue("black", "white")}
                 bgClip="text"
                 fontSize={{
@@ -77,7 +79,7 @@ const Hero: React.FunctionComponent = (props: any) => {
                 }}
               >
                 {props?.heroSection?.heading}
-              </Text>
+              </Heading>
               <VStack
                 alignItems={{
                   base: "start",

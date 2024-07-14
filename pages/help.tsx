@@ -3,6 +3,8 @@ import { NextPage } from "next";
 
 import {
     Box,
+    Button,
+    Center,
     Container,
     Heading,
     Image,
@@ -16,8 +18,15 @@ import Header from "@/website/Header";
 import Footer from "@/website/Footer/Footer";
 import BaseSeo from "@/modules/components/BaseSeo";
 import BaseBox from "@/modules/components/BaseBox";
+import { useRouter } from "next/router";
 
 const Help: NextPage = (props: any) => {
+  const { push } = useRouter();
+
+  const goToContact = () => {
+    push('/contact')
+  }
+
   return (
     <div>
       <BaseSeo title="How it works" />
@@ -44,9 +53,15 @@ const Help: NextPage = (props: any) => {
                       </Image>
                     </Box>
                     </ListItem>
+                    <ListItem mb="4"><Text fontWeight="bold">Select a template that you want to use</Text>
+                    <Box mt="2">
+                      <Image src="/assets/step-template.png" alt="template">
+                      </Image>
+                    </Box>
+                    </ListItem>
                     <ListItem mb="4"><Text fontWeight="bold">Select your design preferences</Text>
                     <Box mt="2">
-                      <Image src="/assets/step-design.png" alt="pages">
+                      <Image src="/assets/step-design.png" alt="design">
                       </Image>
                     </Box>
                     </ListItem>
@@ -72,6 +87,16 @@ const Help: NextPage = (props: any) => {
                 </OrderedList>           
             </Container>
         </BaseBox>
+        <Box mt="8">
+        <Center>
+          <Button variant="solid" 
+                  colorScheme="teal"
+                  onClick={() => goToContact()}
+                  p="6">
+                    I&apos;m Interested
+          </Button>
+        </Center>
+        </Box>
       </main>
 
       <footer>

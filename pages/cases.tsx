@@ -3,6 +3,8 @@ import { NextPage } from "next";
 
 import {
     Box,
+    Button,
+    Center,
     Container,
     Heading,
     ListItem,
@@ -15,8 +17,15 @@ import Header from "@/website/Header";
 import Footer from "@/website/Footer/Footer";
 import BaseSeo from "@/modules/components/BaseSeo";
 import BaseBox from "@/modules/components/BaseBox";
+import { useRouter } from "next/router";
 
 const Cases: NextPage = (props: any) => {
+  const { push } = useRouter();
+
+  const goToContact = () => {
+    push('/contact')
+  }
+
   return (
     <div>
       <BaseSeo title="Use Cases" />
@@ -72,6 +81,16 @@ const Cases: NextPage = (props: any) => {
                 </OrderedList>        
             </Container>
         </BaseBox>
+        <Box mt="8">
+        <Center>
+          <Button variant="solid" 
+                  colorScheme="teal"
+                  onClick={() => goToContact()}
+                  p="6">
+                    I&apos;m Interested
+          </Button>
+        </Center>
+        </Box>
       </main>
 
       <footer>

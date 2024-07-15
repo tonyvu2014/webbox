@@ -33,7 +33,7 @@ const Cases: NextPage = (props: any) => {
       <main>
         <Header />
         <BaseBox>
-            <Container  maxW="container.md" mt="4" centerContent>
+            <Container  maxW="container.md" mt="8" centerContent>
                 <Heading as="h1" mb="8">Use Cases</Heading> 
                 <OrderedList>
                     <ListItem mb="4">

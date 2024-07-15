@@ -25,7 +25,7 @@ const Faq: NextPage = (props: any) => {
       <main>
         <Header />
         <BaseBox>
-            <Container  maxW="container.md" m="auto" mt="4" centerContent>
+            <Container  maxW="container.md" m="auto" mt="8" centerContent>
                 <Heading as="h1" mb="8">Frequently Asked Questions</Heading>
                 <List>
                     <ListItem>

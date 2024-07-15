@@ -37,7 +37,7 @@ const Pricing: NextPage = (props: any) => {
       <main>
         <Header />
         <BaseBox>
-            <Container maxW="container.md" mt="4" centerContent>
+            <Container maxW="container.md" mt="8" centerContent>
                 <Center><Heading as="h1" mb="8">Pricing</Heading></Center> 
                 <SimpleGrid spacing={4} columns={{sm: 1, md: 3}}>
                     <Card variant={'elevated'} size='md' align="center">

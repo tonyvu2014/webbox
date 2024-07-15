@@ -23,7 +23,7 @@ const Terms: NextPage = (props: any) => {
       <main>
         <Header />
         <BaseBox>
-            <Container  maxW="container.md" m="auto" mt="4" centerContent>
+            <Container  maxW="container.md" mt="8" centerContent>
                 <Heading as="h1" mb="8">Terms of Service</Heading>
                 <Box mb="2">
                     Welcome to Webbox AI, the AI-powered no-code website generator! These terms of service outline the rules and regulations for the use of our website and services.<br/>

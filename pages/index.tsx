@@ -24,7 +24,7 @@ const Home: NextPage = (props: any) => {
 
   return (
     <div>
-      <BaseSeo title="Generate websites in under 1 hour"/>
+      <BaseSeo title="Use AI to generate your website in under an hour"/>
 
       <main>
         <Header />

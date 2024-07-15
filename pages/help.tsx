@@ -33,7 +33,7 @@ const Help: NextPage = (props: any) => {
       <main>
         <Header />
         <BaseBox>
-            <Container  maxW="container.md" m="auto" mt="4" centerContent>
+            <Container  maxW="container.md" mt="8" centerContent>
                 <Heading as="h1" mb="8">How Webbox AI works</Heading>
                 <Box mb="4">
                     Webbox AI generates websites based on your text instructions and design preferences. Follow these simple steps.

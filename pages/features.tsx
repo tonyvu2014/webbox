@@ -37,7 +37,7 @@ const Features: NextPage = (props: any) => {
       <main>
         <Header />
         <BaseBox>
-            <Container  maxW="container.md" m="auto" mt="4" centerContent>
+            <Container  maxW="container.md" mt="8" centerContent>
                 <Heading as="h1" mb="8">How are Webbox AI different from Bubble.io and Webflow</Heading>
                 <Box mb="4">
                 <strong>Webbox AI</strong> is best for users who need a quick, easy, and professional-looking website without the need for technical skills or complex functionality. It excels in simplicity and speed. <br/><br/>

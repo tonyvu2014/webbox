@@ -83,7 +83,7 @@ const Pricing: NextPage = (props: any) => {
                         </CardHeader>
                         <CardBody>
                             <Box mb='2'>
-                                1 AI-generated website
+                                3 AI-generated website
                             </Box>
                             <Box mb='2'>
                                 Pick from all site templates

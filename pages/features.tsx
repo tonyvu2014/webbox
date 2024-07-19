@@ -76,8 +76,13 @@ const Features: NextPage = (props: any) => {
                       </Tr>
                       <Tr>
                         <Td className='td-label-style'><Text as='b'>Cost per month</Text></Td>
-                        <Td className='td-value-style'>Less than $10</Td>
+                        <Td className='td-value-style'>$19</Td>
                         <Td className='td-value-style'>$30 or more</Td>
+                      </Tr>
+                      <Tr>
+                        <Td className='td-label-style'><Text as='b'>Smart AI content and design element generation</Text></Td>
+                        <Td className='td-value-style'>Yes</Td>
+                        <Td className='td-value-style'>No</Td>
                       </Tr>
                       <Tr>
                         <Td className='td-label-style'><Text as='b'>Customization</Text></Td>

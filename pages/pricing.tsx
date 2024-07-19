@@ -79,7 +79,7 @@ const Pricing: NextPage = (props: any) => {
                         <CardHeader>
                             <Center><Heading size="md">Starter</Heading></Center>
                             <br/>   
-                            <Center><Text fontSize={'lg'}>$9/month</Text></Center>                      
+                            <Center><Text fontSize={'lg'}>$19/month</Text></Center>                      
                         </CardHeader>
                         <CardBody>
                             <Box mb='2'>

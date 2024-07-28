@@ -70,7 +70,7 @@ const Pricing: NextPage = (props: any) => {
                                         variant="solid"
                                         colorScheme="blue"
                                         onClick={() => goToContact()}>
-                                    Register Interest
+                                    Get Early Access
                                 </Button>
                             </Box>
                         </CardFooter>
@@ -118,7 +118,7 @@ const Pricing: NextPage = (props: any) => {
                                         variant="solid"
                                         colorScheme="blue"
                                         onClick={() => goToContact()}>
-                                    Register Interest
+                                    Get Early Access
                                 </Button>
                             </Box>
                         </CardFooter>
@@ -166,7 +166,7 @@ const Pricing: NextPage = (props: any) => {
                                         variant="solid"
                                         colorScheme="blue"
                                         onClick={() => goToContact()}>
-                                    Register Interest
+                                    Get Early Access
                                 </Button>
                             </Box>
                         </CardFooter>

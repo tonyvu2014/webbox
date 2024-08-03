@@ -58,7 +58,7 @@ const Cases: NextPage = (props: any) => {
                         <Box mt="2">
                         Sarah Thompson, a marketing manager at a boutique coffee company, needed a landing page for a new line of premium coffee blends. 
                         Using Webbox AI, he quickly created a professional, engaging landing page. 
-                        The platform&apos;s ease of use and efficient tools helped John drive traffic, generate leads, and boost sales, allowing him to focus on his marketing campaign rather than technical details. 
+                        The platform&apos;s ease of use and efficient tools helped Sarah drive traffic, generate leads, and boost sales, allowing him to focus on his marketing campaign rather than technical details. 
                         Webbox AI proved to be a powerful solution for creating effective landing pages swiftly and effortlessly.      
                         </Box>
                     </ListItem>

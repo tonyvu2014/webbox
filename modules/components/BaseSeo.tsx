@@ -4,19 +4,12 @@ import Head from "next/head";
 
 // Types Imports
 import { SeoType } from "@/common/types/components/base-seo";
+import Script from "next/script";
 
 const BaseSeo: React.FunctionComponent<SeoType> = (props) => {
   return (
     <React.Fragment>
       <Head>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-991920301"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'AW-991920301');
-        </script>
         <title>
           {["Webbox AI", props.title].flat().filter(Boolean).join(" - ")}
         </title>
@@ -42,6 +35,16 @@ const BaseSeo: React.FunctionComponent<SeoType> = (props) => {
           content="https://avatars.githubusercontent.com/u/7567119?v=4"
         />
       </Head>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-991920301"></Script>
+      <Script id='gtm'>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-991920301');
+        `}
+      </Script>
     </React.Fragment>
   );
 };

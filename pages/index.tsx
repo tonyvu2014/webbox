@@ -126,7 +126,7 @@ export async function getStaticProps() {
       heroSection: {
         heading: "Create stunning websites in under an hour with Webbox AI",
         description:
-          "Welcome to Webbox, the ultimate AI-powered no-code website generator. Whether you're a startup founder, business owner, creative professional, or hobbyist, Webbox empowers you to design and launch a professional, seo-friendly website in less than 60 minutes. With intuitive tools and intelligent design assistance, you can seamlessly transform your vision into a fully functional online presence without any coding skills. Experience the future of website creation with Webbox – fast, easy, and beautiful.",
+          "Welcome to Webbox, the ultimate AI-powered no-code website builder. Whether you're a startup founder, business owner, creative professional, or hobbyist, Webbox empowers you to design and launch a professional, seo-friendly website in less than 60 minutes. With intuitive tools and intelligent design assistance, you can seamlessly transform your vision into a fully functional online presence without any coding skills. Experience the future of website creation with Webbox – fast, easy, and beautiful.",
         buttonText: "Get started",
       },
     },

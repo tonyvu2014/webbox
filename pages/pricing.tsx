@@ -64,7 +64,7 @@ const Pricing: NextPage = (props: any) => {
                         <CardFooter>
                             <Box w='100%' p={2} textAlign={'center'}>
                                 <Text fontSize={'sm'} mb='2'>
-                                    Explore the power of AI website generator
+                                    Explore the power of AI website builder
                                 </Text>
                                 <Button type="button"
                                         variant="solid"

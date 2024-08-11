@@ -151,7 +151,7 @@ const Footer: React.FunctionComponent = () => {
             <Link href="https://www.webboxai.com">
               <Text fontWeight="600">Webbox |</Text>
             </Link>
-            <Text>AI no-code website generator💜</Text>
+            <Text>AI no-code website builder💜</Text>
           </HStack>
         </Box>
       </Box>

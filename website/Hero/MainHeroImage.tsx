@@ -21,7 +21,7 @@ const MainHeroImage: React.FunctionComponent = () => {
       >
          <Image
               src="/assets/hero-ai-website-generator.png"
-              alt="AI Website Generator"
+              alt="AI Website Builder"
               position="relative"
               />
       </Flex>

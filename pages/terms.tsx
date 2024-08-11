@@ -26,7 +26,7 @@ const Terms: NextPage = (props: any) => {
             <Container  maxW="container.md" mt="8" centerContent>
                 <Heading as="h1" mb="8">Terms of Service</Heading>
                 <Box mb="2">
-                    Welcome to Webbox AI, the AI-powered no-code website generator! These terms of service outline the rules and regulations for the use of our website and services.<br/>
+                    Welcome to Webbox AI, the AI-powered no-code website builder! These terms of service outline the rules and regulations for the use of our website and services.<br/>
                     By accessing this website and using our services, we assume you accept these terms of service in full. Do not continue to use Webbox AI&apos;s website or services if you do not accept all of the terms and conditions stated on this page.<br/>
                     The following terminology applies to these Terms of Service, Privacy Statement and Disclaimer Notice and any or all Agreements:<br/>
                     - &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to you, the person accessing this website and accepting Webbox AI&apos;s terms and conditions. <br/>

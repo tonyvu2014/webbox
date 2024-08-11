@@ -34,7 +34,7 @@ const Faq: NextPage = (props: any) => {
                         </Box>
                         <Box my="2">
                             <Text>
-                            Webbox AI is an AI-powered no-code website generator that allows users to create stunning, professional websites in under an hour without any coding skills. 
+                            Webbox AI is an AI-powered no-code website builder that allows users to create stunning, professional websites in under an hour without any coding skills. 
                             </Text>  
                         </Box>  
                     </ListItem>

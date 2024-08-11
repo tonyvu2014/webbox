@@ -14,7 +14,7 @@ const BaseSeo: React.FunctionComponent<SeoType> = (props) => {
           {["Webbox AI", props.title].flat().filter(Boolean).join(" - ")}
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Create stunning websites in under an hour with Webbox AI, the AI-powered no-code website generator. Perfect for businesses and creatives, Webbox makes professional website creation easy and fast. Sign up now to get your first website free and enjoy a 50% discount on subsequent sites. Revolutionize your online presence with Webbox AI." />
+        <meta name="description" content="Create stunning websites in under an hour with Webbox AI, the AI-powered no-code website builder. Perfect for businesses and creatives, Webbox makes professional website creation easy and fast. Sign up now to get your first website free and enjoy a 50% discount on subsequent sites. Revolutionize your online presence with Webbox AI." />
         <meta name="author" content="Tony Vu" />
         <meta name="author" content="tonyvu2014" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -27,8 +27,8 @@ const BaseSeo: React.FunctionComponent<SeoType> = (props) => {
           name="twitter:image"
           content="https://github.com/tonyvu2014"
         />
-        <meta property="og:site_name" content="Webbox - AI web generator" />
-        <meta name="og:title" content="Webbox -  AI web generator" />
+        <meta property="og:site_name" content="Webbox - AI web builder" />
+        <meta name="og:title" content="Webbox -  AI web builder" />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"

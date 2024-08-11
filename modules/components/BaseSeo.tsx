@@ -9,6 +9,14 @@ const BaseSeo: React.FunctionComponent<SeoType> = (props) => {
   return (
     <React.Fragment>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-991920301"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-991920301');
+        </script>
         <title>
           {["Webbox AI", props.title].flat().filter(Boolean).join(" - ")}
         </title>

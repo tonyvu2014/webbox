@@ -26,7 +26,7 @@ const Contact: NextPage = (props: any) => {
               <FormfacadeEmbed
                 formFacadeURL="https://formfacade.com/include/110581543394745721401/form/1FAIpQLSfsrThogKVdPBRsCUJJ6meIXM9jCdGCYLRsIdq5D7oF-A_ufg/classic.js/?div=ff-compose"
                 onSubmitForm={() => console.log('Form submitted')}
-                />
+              />
             </Container>
         </BaseBox>
       </main>

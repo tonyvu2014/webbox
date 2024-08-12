@@ -39,7 +39,7 @@ const Cases: NextPage = (props: any) => {
                     <ListItem mb="4">
                         <Text fontWeight="bold">Company websites for small business owners:</Text>
                         <Box mt="2">
-                        John Davis, a small business owner, dreamed of opening her own bakery but lacked the technical skills to create a professional website. 
+                        Sarah Thompson, a small business owner, dreamed of opening her own bakery but lacked the technical skills to create a professional website. 
                         She discovered Webbox AI which allowed her to build a stunning website for her bakery, &ldquo;Sweet Delights&rdquo; in under an hour. The platform&apos;s user-friendly interface and customizable templates made the process easy and stress-free. 
                         Sarah&apos;s new website quickly attracted customers, enhancing her business&apos;s online presence and success. Webbox AI enabled her to focus on her passion for baking while effortlessly managing her website.
                         </Box>
@@ -56,9 +56,9 @@ const Cases: NextPage = (props: any) => {
                     <ListItem mb="4">
                         <Text fontWeight="bold">Landing pages for marketing campaigns:</Text>
                         <Box mt="2">
-                        Sarah Thompson, a marketing manager at a boutique coffee company, needed a landing page for a new line of premium coffee blends. 
-                        Using Webbox AI, he quickly created a professional, engaging landing page. 
-                        The platform&apos;s ease of use and efficient tools helped Sarah drive traffic, generate leads, and boost sales, allowing him to focus on his marketing campaign rather than technical details. 
+                        John Davis, a marketing manager at a boutique coffee company, needed a landing page for a new line of premium coffee blends. 
+                        Using Webbox AI,  quickly created a professional, engaging landing page. 
+                        The platform&apos;s ease of use and efficient tools helped John drive traffic, generate leads, and boost sales, allowing him to focus on his marketing campaign rather than technical details. 
                         Webbox AI proved to be a powerful solution for creating effective landing pages swiftly and effortlessly.      
                         </Box>
                     </ListItem>
